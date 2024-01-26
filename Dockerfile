@@ -2,4 +2,4 @@ FROM node
 WORKDIR /app
 COPY . .
 CMD ["node", "index.js"]
-EXPOSE 8080
+EXPOSE 3000
