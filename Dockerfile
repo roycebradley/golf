@@ -1,5 +1,5 @@
 FROM node
-WORKDIR ./GolfApp/golf
+WORKDIR /app
 COPY . .
 CMD ["node", "index.js"]
 EXPOSE 3000
